@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h2>Seablue Survey Form</h2>
+    </header>
+    <main>
+      <form action="">
+        <section>
+          <label for="name">Name :</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+          />
+        </section>
+        <br />
+        <section>
+          <label for="email">Email :</label><br />
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+        </section>
+        <br />
+        <section>
+          <label for="age">Age :</label><br />
+          <input type="text" id="age" name="age" placeholder="Enter your age" />
+        </section>
+        <br />
+        <section>
+          <label for="role">Which option best describe you?</label><br />
+          <select name="role" id="role">
+            <option value="student">Student</option>
+            <option value="inter">Intern</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+          </select>
+        </section>
+        <br />
+        <section>
+          <label class="down">Would you recommend Seablue to a friend ?</label
+          ><br />
+          <input type="radio" checked /> Yes<br />
+          <input type="radio" /> No<br />
+          <input type="radio" /> Maybe
+        </section>
+        <br />
+        <section>
+          <label for="" class="down"
+            >Languages and Frameworks known
+            <small>(Check all that apply) :</small></label
+          ><br />
+          <input type="checkbox" /> C<br />
+          <input type="checkbox" /> C++<br />
+          <input type="checkbox" /> C#<br />
+          <input type="checkbox" /> Java<br />
+          <input type="checkbox" /> Python<br />
+          <input type="checkbox" /> JavaScript<br />
+          <input type="checkbox" /> React<br />
+          <input type="checkbox" /> Angular<br />
+          <input type="checkbox" /> Django<br />
+          <input type="checkbox" /> Spring
+        </section>
+        <br />
+        <section>
+          <label for="" class="down">Any comments or suggestions :</label><br />
+          <textarea rows="3" cols="30"></textarea>
+        </section>
+        <br />
+        <section>
+          <button type="submit">Submit</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
