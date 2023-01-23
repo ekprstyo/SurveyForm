@@ -180,10 +180,25 @@ small {
   margin-bottom: 7px;
 }
 
+textarea {
+  width: 95%;
+  height: 80px;
+}
+
 button {
   width: 100%;
   background-color: #f55050;
   color: whitesmoke;
   font-size: 15px;
   font-weight: 800;
+}
+
+/* large device */
+@media only screen and (min-width: 600px) {
+  h2 {
+    font-size: 30px;
+  }
+  main {
+    max-width: 500px;
+  }
 }
